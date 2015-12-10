@@ -1,0 +1,4 @@
+# psplibraries.yml
+- hosts: localhost
+  roles:
+    - nabilbendafi.psptoolchain
