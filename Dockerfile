@@ -1,5 +1,5 @@
 # base image
-FROM ubuntu:trusty
+FROM ubuntu:precise
 
 MAINTAINER Nabil Bendafi "nabil@bendafi.fr"
 
