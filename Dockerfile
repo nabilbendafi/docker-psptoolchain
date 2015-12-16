@@ -5,7 +5,7 @@ MAINTAINER Nabil Bendafi "nabil@bendafi.fr"
 
 # update ubuntu image
 RUN apt-get update
-RUN apt-get install -y python-software-properties
+RUN apt-get install -y python-software-properties sudo
 RUN apt-add-repository ppa:ansible/ansible
 RUN apt-get update
 
